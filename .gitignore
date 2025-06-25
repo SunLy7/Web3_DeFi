@@ -1,0 +1,35 @@
+# 开发环境文件
+.DS_Store
+.env.local
+.env.development
+.env.production
+.env.test
+
+# 依赖目录
+node_modules/
+
+# 编译产物
+build/
+dist/
+out/
+artifacts/
+cache/
+
+# 测试相关
+coverage/
+.nyc_output/
+
+# 编辑器配置
+.vscode/
+.idea/
+
+# 日志文件
+*.log
+
+# Foundry相关
+broadcast/
+lib/
+
+# 前端资源
+*.css.map
+*.js.map
